@@ -1,7 +1,7 @@
 /**
  * 数组去重
  * @param {Array} array 需要处理的数组
- * @returns {Array} 这是什么东西啊
+ * @returns {Array} 返回新的数组
  */
 const uniq = (array) => {
     let res = [];
