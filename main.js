@@ -20,3 +20,21 @@ const uniq = (array) => {
 }
 
 export default uniq;
+/**
+ * 当前数组中str匹配的个数
+ * @param {Array} array
+ * @param {string} str 需要匹配的字符
+ * @returns {number}
+ */
+const strNumber = (array,str) => {
+    let num = 0;
+
+    for(let value of array){
+        value += '';
+        if(value.indexOf(str) > -1){
+            num++;
+        }
+    }
+
+    return num;
+}
